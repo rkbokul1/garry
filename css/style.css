@@ -1,0 +1,22 @@
+/* deafult */
+body{
+    color: #fff;
+    background: #212529;
+}
+
+/* custom */
+.header{
+    background: url(../banner.jpg) no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.banner{
+    position: relative;
+}
+.banner-content{
+    position: absolute;
+    top: 150px;
+    left: 0;
+    height: calc(100vh - 65px);
+}
